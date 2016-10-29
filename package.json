@@ -1,8 +1,10 @@
 {
   "name": "react-christmas",
   "version": "0.1.0",
+  "homepage": "http://myname.github.io/react-christmas/index.html",
   "private": true,
   "devDependencies": {
+    "gh-pages": "^0.11.0",
     "react-scripts": "0.7.0"
   },
   "dependencies": {
@@ -14,6 +16,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
   }
 }
